@@ -1,0 +1,125 @@
+*{
+  font-family: "inter";
+  margin: 0%;
+}   
+
+#Logotipo{
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+#TituloMenuSuperior{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+#TextoMenuSuperior{
+  margin-left: 150px;
+  margin-top: 25px;
+  padding-bottom: 100px;
+}
+#MenuSuperior{
+  background-image: url(/Imagens/FundoMenuSuperior.svg);
+  color: aliceblue;
+}
+#MenuInformacional{
+  background-color: #EAECE5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+.Icone{
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+#SecaoVideo{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.TextoInformativo{
+  display: flex;
+  align-items: center;
+}
+#TituloVideo{
+  color: #247BA0;
+  margin-top: 50px;
+}
+#Video{
+  margin: 50px 25px 50px 100px;
+}
+#Carrosel{
+  background-color: #247BA0;
+  padding: 50px;
+}
+#TituloCarrosel{
+  text-align: center;
+  color: #EAECE5;
+  font-size: 25px;
+
+}
+#DivCards{
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+}
+.Card{
+  margin-left: 50px;
+}
+
+#SetaEsquerda{
+  display: none;
+}
+
+#Bruna{
+  display: none;
+}
+
+.Seta{
+  margin-top: 20%;
+  cursor: pointer;
+}
+
+.Seta:hover{
+  transform:translateY(-7px);
+  transition-duration: 0.5s;
+}
+#Formulario{
+  text-align: center;
+
+}
+#TituloFormulario{
+  font-size: 25px;
+  margin: 25px;
+  color:#383838;
+}
+
+input{
+  Width: 413px;
+  height: 53px;
+  background-color: #EAECE5;
+  margin: 25px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+button{
+  background-color: #247BA0;
+  height: 40px;
+  width: 250px;
+  color: #EAECE5;
+  margin: 25px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #318fb8; 
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #05103063;
+  transition-duration: 0,5s;
+}
